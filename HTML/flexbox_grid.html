@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Musanzivwa Nestor">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto  ;
+            gap: 15px;
+        }
+        .item{
+            background-color: #eee;
+            border: 1px solid black;
+            padding: 20px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .item8{
+            grid-column: span 2;
+        }
+        .item9{
+            grid-column: span 2;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .item3 ,.item4 ,.item5 ,.item6{
+            height: 10px;
+        } 
+        .item10{
+            grid-column: span 4;
+            height: 60px;
+        }
+      .item2{
+        grid-column: span 4;
+        height: 80px;
+      }
+      .item7{
+      grid-row: span 2;
+      grid-column: span 2;
+      height: 400px;
+      }
+    
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item item1">Company logo and Slogan</div>
+        <div  class="item item2">Header</div>
+        <div  class="item item3">Navigation..</div>
+        <div  class="item item4"></div>
+        <div class="item item5"></div>
+        <div  class="item item6"></div>
+        <div  class="item item7">About</div>
+        <div  class="item item8">Quick links</div>
+        <div class="item item9">Quick links</div>
+        <div  class="item item10">Site plan and Copyright info</div>
+       
+    </div>
+    
+</body>
+</html>
